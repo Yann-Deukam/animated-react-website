@@ -1,5 +1,6 @@
 @import url("https://fonts.cdnfonts.com/css/general-sans");
 
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 @import "tailwindcss";
 
 body {
@@ -65,7 +66,7 @@ body {
 }
 
 @utility hero-heading {
-  @apply uppercase font-black text-5xl sm:right-10 sm:text-7xl md:text-9xl lg:text-[12rem];
+  @apply uppercase font-black text-5xl sm:right-10 sm:text-6xl md:text-7xl lg:text-[10rem] anton-regular;
 }
 
 @utility about-subtext {
@@ -138,13 +139,19 @@ body {
   clip-path: polygon(29% 15%, 85% 30%, 50% 100%, 10% 64%);
 }
 
-.indicator-line {
+@utility indicator-line {
   @apply h-1 w-px rounded-full bg-white transition-all duration-200 ease-in-out;
 }
 
-.indicator-line.active {
+@utility indicator-line.active {
   animation: indicator-line 0.5s ease infinite;
   animation-delay: calc(var(--animation-order) * 0.1s);
+}
+
+@utility anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 @keyframes indicator-line {

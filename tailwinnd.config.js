@@ -3,11 +3,12 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        zentry: ["Zentry", "sans-serif"],
-        general: ["general", "sans-serif"],
-        "circular-web": ["circular-web", "sans-serif"],
-        "robert-regular": ["robert-regular", "sans-serif"],
-        "robert-medium": ["robert-medium", "sans-serif"],
+        // zentry: ["Zentry", "sans-serif"],
+        // general: ["general", "sans-serif"],
+        // "circular-web": ["circular-web", "sans-serif"],
+        // "robert-regular": ["robert-regular", "sans-serif"],
+        // "robert-medium": ["robert-medium", "sans-serif"],
+        aston: ['"Aston"', "sans-serif"],
       },
     },
   },
