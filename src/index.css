@@ -50,7 +50,7 @@ body {
 }
 
 @utility floating-nav {
-  @apply bg-black rounded-lg border;
+  @apply bg-black/50 rounded-lg border backdrop-blur-md;
 }
 
 @utility absolute-center {
