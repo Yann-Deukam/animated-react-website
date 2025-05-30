@@ -8,7 +8,7 @@ export default {
         // "circular-web": ["circular-web", "sans-serif"],
         // "robert-regular": ["robert-regular", "sans-serif"],
         // "robert-medium": ["robert-medium", "sans-serif"],
-        aston: ['"Aston"', "sans-serif"],
+        anton: ['"Anton"', "sans-serif"],
       },
     },
   },
