@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
+import Service from "./components/Service";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Hero />
       <About />
       <Portfolio />
+      <Service />
     </main>
   );
 };
